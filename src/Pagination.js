@@ -69,7 +69,7 @@ const Pagination = () => {
       </table>
 
       <div>
-      <button onClick={handlePrevPage} disabled={currentPage === 1} data-cy="prev-button" >
+      <button onClick={handlePrevPage} disabled={currentPage === 0} data-cy="prev-button" >
   Previous
 </button>
         <span>
