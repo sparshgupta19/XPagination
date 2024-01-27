@@ -31,7 +31,7 @@ const Pagination = () => {
       setCurrentPage(currentPage + 1);
     }
   };
-
+  
   const handlePrevPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
@@ -74,7 +74,7 @@ const Pagination = () => {
 </button>
         <span>
           {" "}
-          Page {currentPage} of {totalPages}{" "}
+           {currentPage} {" "}
         </span>
         <button onClick={handleNextPage} disabled={currentPage === totalPages} data-cy="next-button">
           Next
